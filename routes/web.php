@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OcurrencesController;
 
 Route::get('/', [OcurrencesController::class, 'index']);
+Route::get('/ocurrences/create', [OcurrencesController::class, 'create']);
+Route::get('/ocurrences/myocurrences', [OcurrencesController::class, 'myocurrences']);
 
 Route::get('/contact', function () {
     return view('contact');

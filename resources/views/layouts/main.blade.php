@@ -25,10 +25,10 @@
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Eventos</a>
+                            <a href="/ocurrences/myocurrences" class="nav-link">Minhas ocorrências</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Criar Eventos</a>
+                            <a href="/ocurrences/create" class="nav-link">Criar Ocorrência</a>
                         </li>
                         <li class="nav-item">
                             <a href="/" class="nav-link">Entrar</a>
@@ -45,5 +45,6 @@
     <footer>
         <p>App NovaCap &copy; 2023</p>
     </footer>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
 </html>

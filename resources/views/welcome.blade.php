@@ -2,6 +2,6 @@
 @section('title', 'App NovaCap')
 @section('content')
 
-<h1>teste</h1>
+<h1>Página principal</h1>
 
 @endsection
