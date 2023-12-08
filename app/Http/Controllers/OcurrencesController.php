@@ -4,15 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\Ocurrences;
+use App\Models\Ocurrence;
 
 class OcurrencesController extends Controller
+
 {
     public function index() {
 
-        $events = "";
+        $ocurrences = Ocurrence::all();
 
-        return view('welcome');
+        return view('welcome', ['ocurrences' => $ocurrences]);
     }
 
     public function create() {
