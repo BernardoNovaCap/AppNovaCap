@@ -92,6 +92,9 @@ header {
 
 #cards-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #ocurrences-container .card {
@@ -100,6 +103,8 @@ header {
     border-radius: 10px;
     padding: 0;
     margin: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 #ocurrences-container img {
@@ -117,6 +122,10 @@ header {
 .card .card-infos {
     font-size: 14px;
     color: #757575;
+}
+
+.card img {
+    border-radius: 15px;
 }
 
 /* FOOTER */

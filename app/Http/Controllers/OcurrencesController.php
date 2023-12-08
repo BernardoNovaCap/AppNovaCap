@@ -23,4 +23,19 @@ class OcurrencesController extends Controller
     public function myocurrences() {
         return view('ocurrences.myocurrences');
     }
+
+    public function store(Request $request) {
+
+        $ocurrence = new Ocurrence;
+
+        $ocurrence->type = $request->type;
+        $ocurrence->description = $request->description;
+        $ocurrence->adress = $request->adress;
+        $ocurrence->risk = $request->risk;
+
+        $ocurrence->save();
+
+        return redirect('/ocurrences/myocurrences')->with('ocurrence', $ocurrence);
+
+    }
 }

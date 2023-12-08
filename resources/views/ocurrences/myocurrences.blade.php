@@ -2,6 +2,24 @@
 @section('title', 'Minhas Ocorrências')
 @section('content')
 
-<h1>Minhas ocorrências</h1>
+<div id="ocurrences-container" class="col-md-12">
+    <h2>Minhas ocorrências</h2>
+    <p class="subtitle">Acompanhe as suas ocorrências:</p>
+    <div id="cards-container" class="row">
+    </div>
+</div>
+
+
+<!-- ERRO FOREACH ARRUMAR -->
+@foreach($ocurrences as $ocurrence) 
+    <div class="card col-md-3">
+        <img src="/img/buraco.png" alt="{{ $ocurrence->type }}">
+        <div class="card-body">
+            <h5 class="card-type">{{ $ocurrence->type }}</h5>
+            <p class="card-infos">{{ $ocurrence->description }}.</p>
+            <a href="#" class="btn btn-primary">Saber mais</a>
+        </div>
+    </div>
+@endforeach
 
 @endsection

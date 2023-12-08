@@ -17,7 +17,8 @@ use App\Http\Controllers\OcurrencesController;
 
 Route::get('/', [OcurrencesController::class, 'index']);
 Route::get('/ocurrences/create', [OcurrencesController::class, 'create']);
-Route::get('/ocurrences/myocurrences', [OcurrencesController::class, 'myocurrences']);
+Route::get('/ocurrences/myocurrences', [OcurrencesController::class , 'myocurrences']);
+Route::post('/ocurrences', [OcurrencesController::class, 'store']);
 
 Route::get('/contact', function () {
     return view('contact');
