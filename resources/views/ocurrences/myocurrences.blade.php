@@ -9,14 +9,13 @@
     </div>
 </div>
 
-
 <!-- ERRO FOREACH ARRUMAR -->
 @foreach($ocurrences as $ocurrence) 
     <div class="card col-md-3">
-        <img src="/img/buraco.png" alt="{{ $ocurrence->type }}">
+        <img src="/img/ocurrences/{{ $ocurrence->image }}" alt="{{ $ocurrence->type }}">
         <div class="card-body">
             <h5 class="card-type">{{ $ocurrence->type }}</h5>
-            <p class="card-infos">{{ $ocurrence->description }}.</p>
+            <p class="card-infos">{{ $ocurrence->description }}</p>
             <a href="#" class="btn btn-primary">Saber mais</a>
         </div>
     </div>

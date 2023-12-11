@@ -32,10 +32,34 @@ class OcurrencesController extends Controller
         $ocurrence->description = $request->description;
         $ocurrence->adress = $request->adress;
         $ocurrence->risk = $request->risk;
+        
+        // IMAGE UPLOAD
+
+        if($request->hasFile('image') && $request->file('image')->isValid()) {
+
+            $requestImage = $request->image;
+
+            $extension = $requestImage->extension();
+
+            $imageName =md5($requestImage->getClientOriginalName() . strtotime("now")) . "." . $extension;
+
+            $requestImage->move(public_path('img/ocurrences'), $imageName);
+
+            $ocurrence->image = $imageName;
+
+        }
 
         $ocurrence->save();
 
-        return redirect('/ocurrences/myocurrences')->with('ocurrence', $ocurrence);
+        return redirect('/ocurrences/myocurrences')->with('msg', 'Ocorrência criada com sucesso!');
+
+    }
+
+    public function show($id) {
+
+        $ocurrence = Ocurrence::findOrFail($id);
+
+        return view('ocurrences.show', ['ocurrences' => $ocurrences]);
 
     }
 }

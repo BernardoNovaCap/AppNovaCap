@@ -4,8 +4,13 @@
 
 <div id="ocurrence-create-container" class="col-md-6 offset-md-3">
     <h1>Faça a sua ocorrência</h1>
-    <form action="/ocurrences" method="POST">
+    <form action="/ocurrences" method="POST" enctype="multipart/form-data">
         @csrf
+        <div class="form-group">
+            <label for="image">Imagem da ocorrência:</label>
+            <input type="file" class="form-control-file" id="image" name="image">
+        </div>
+
         <div class="form-group">
             <label for="title">Categoria:</label>
             <select name="type" id="type" class="form-control">

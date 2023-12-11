@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text("description");
             $table->string("adress");
             $table->string("risk");
+            $table->string('image');
         });
     }
 
