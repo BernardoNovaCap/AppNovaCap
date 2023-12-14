@@ -19,10 +19,12 @@ class OcurrencesController extends Controller
     public function create() {
         return view('ocurrences.create');
     }
-
-    public function myocurrences() {
-        return view('ocurrences.myocurrences');
-    }
+    public function myocurrences()
+{
+    $ocurrences = Ocurrence::all();
+    return view('ocurrences.myocurrences', ['ocurrences' => $ocurrences]);
+}
+    
 
     public function store(Request $request) {
 
@@ -32,7 +34,9 @@ class OcurrencesController extends Controller
         $ocurrence->description = $request->description;
         $ocurrence->adress = $request->adress;
         $ocurrence->risk = $request->risk;
+
         
+    
         // IMAGE UPLOAD
 
         if($request->hasFile('image') && $request->file('image')->isValid()) {
@@ -56,10 +60,19 @@ class OcurrencesController extends Controller
     }
 
     public function show($id) {
-
         $ocurrence = Ocurrence::findOrFail($id);
+    
+        return view('ocurrences.show', ['ocurrence' => $ocurrence]);
+    }
+ 
+    public function scheduling() {
+        return view('ocurrences.scheduling');
+    }
 
-        return view('ocurrences.show', ['ocurrences' => $ocurrences]);
-
+    public function news() {
+        return view('ocurrences.news');
+    }
+    public function called() {
+        return view('ocurrences.called');
     }
 }
