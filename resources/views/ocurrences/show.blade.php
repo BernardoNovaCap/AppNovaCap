@@ -7,11 +7,15 @@
         <div id="image-container" class="col-md-6">
             <img src="/img/ocurrences/{{ $ocurrence->image }}" class="img-fluid" alt="{{ $ocurrence->type }}">
         </div>
-        
+
         <div id="info-container" class="col-md-6">
             <h1>{{ $ocurrence->type }}</h1>
             <p class="ocurrence-adress"><ion-icon name="location-outline"></ion-icon> {{ $ocurrence->adress }}</p>
-            
+        </div>
+
+        <div class="col-md-12" id="description-container">
+            <h3>Descrição da ocorrência:</h3>
+            <p class="ocurrence-description">{{ $ocurrence->description }}</p>
         </div>
     </div>
 </div>

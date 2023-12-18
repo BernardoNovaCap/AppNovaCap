@@ -64,7 +64,7 @@ class OcurrencesController extends Controller
     
         return view('ocurrences.show', ['ocurrence' => $ocurrence]);
     }
- 
+
     public function scheduling() {
         return view('ocurrences.scheduling');
     }
