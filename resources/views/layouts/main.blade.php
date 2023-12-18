@@ -56,7 +56,7 @@
             </div>
         </div>
     </main>
-    
+   
     <footer>
         <p>App NovaCap &copy; 2023</p>
     </footer>

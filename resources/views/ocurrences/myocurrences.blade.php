@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <h5 class="card-type">{{ $ocurrence->type }}</h5>
                     <p class="card-infos">{{ $ocurrence->description }}</p>
-                    <a href="#" class="btn btn-primary">Saber mais</a>
+                    <a href="/ocurrences/{{$ocurrence->id}}" class="btn btn-primary">Saber mais</a>
                 </div>
             </div>
         @endforeach

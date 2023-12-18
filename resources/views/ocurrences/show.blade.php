@@ -10,7 +10,8 @@
         
         <div id="info-container" class="col-md-6">
             <h1>{{ $ocurrence->type }}</h1>
-            <p class="ocurrence-adress"><ion-icon class="location-outline"></ion-icon> {{ $ocurrence->adress }}</p>
+            <p class="ocurrence-adress"><ion-icon name="location-outline"></ion-icon> {{ $ocurrence->adress }}</p>
+            
         </div>
     </div>
 </div>

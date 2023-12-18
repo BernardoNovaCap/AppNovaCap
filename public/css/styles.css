@@ -99,7 +99,7 @@ header {
     transform: scale(1.2);
 }
 
-/* MAP */
+/* MAPA */
 .mapBox {
     width: 100%; 
     height: 500px; 
@@ -204,6 +204,21 @@ header {
 #ocurrence-create-container select,
 #ocurrence-create-container textarea {
     font-size: 12px;
+}
+
+/* OCURRENCE PAGE  */
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 /* FOOTER */
