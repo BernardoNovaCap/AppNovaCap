@@ -10,7 +10,7 @@
             <label for="image">Imagem da ocorrência:</label>
             <input type="file" class="form-control-file" id="image" name="image">
         </div>
-
+            
         <div class="form-group">
             <label for="title">Categoria:</label>
             <select name="type" id="type" class="form-control">
