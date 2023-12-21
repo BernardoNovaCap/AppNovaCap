@@ -58,7 +58,7 @@
     </main>
    
     <footer>
-        <p>App NovaCap &copy; 2023</p>
+        <p>Companhia Urbanizadora da Nova Capital do Brasil - NOVACAP &copy; 2023</p>
     </footer>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
