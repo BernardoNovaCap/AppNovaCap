@@ -11,7 +11,7 @@
 </div>
 
 <div id="ocurrences-container" class="col-md-12">
-    <h2>Categorias:</h2>
+    <h2>Categorias::</h2>
     <p class="subtitle">Veja as categorias que você pode criar uma ocorrência</p>
     <div id="cards-container" class="row">
 
