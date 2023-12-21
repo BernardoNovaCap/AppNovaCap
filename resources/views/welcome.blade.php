@@ -3,10 +3,11 @@
 @section('content')
 
 <div id="search-container" class="col-md-12">
-    <h1>Ache sua categoria</h1>
-    <form action="">
+    <!-- <h1>Ache sua categoria</h1>            // COMENTADO POIS NÃO SERÁ UTILIZADO
+    <form action="/" method="GET">
         <input type="text"id="search" name="search" class="form-control" placeholder="Procurar...">
     </form>
+    -->
 </div>
 
 <div id="ocurrences-container" class="col-md-12">
