@@ -2,8 +2,8 @@
 @section('title', 'App NovaCap')
 @section('content')
 
-<script src="'scripts.js"></script>
-<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="/css/styles.css">
 
 <div class='slider'>
 
@@ -50,8 +50,5 @@
     </div>
 
 </div>
-
-    
-
-
+<script src="/js/scripts.js"></script>
 @endsection

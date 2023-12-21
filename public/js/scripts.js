@@ -1,17 +1,20 @@
 console.log("Está funcionando!")
 
-let count = 1;
-document.getElementById("radio1").checked = true;
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Está funcionando!");
 
-setInterval(function () {
-    nextImage();
-}, 2000);
+    let count = 1;
 
-function nextImage() {
-    count++;
-    if (count > 4) {
-        count = 1;
+    document.getElementById("radio1").checked = true;
+
+    function nextImage() {
+        count++;
+        if (count > 4) {
+            count = 1;
+        }
+
+        document.getElementById("radio" + count).checked = true;
     }
 
-    document.getElementById("radio" + count).click();
-}
+    setInterval(nextImage, 3000);
+});
