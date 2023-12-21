@@ -1,5 +1,5 @@
 console.log("Está funcionando!")
-
+/*  Js de Carrosel de Noticias */
 document.addEventListener('DOMContentLoaded', function() {
     console.log("Está funcionando!");
 
