@@ -2,11 +2,15 @@
 @section('title', 'App NovaCap')
 @section('content')
 
-<script src="'scripts.js"></script>
-<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="/css/styles.css">
+
+
+ <div class="statement">
+    <h1>NOTÍCIAS</h1>
+</div>
 
 <div class='slider'>
-
     <div class='slides'>
     <!-- Radio Buttons-->
     <input type="radio" name="radio-btn" id="radio1">
@@ -50,8 +54,5 @@
     </div>
 
 </div>
-
-    
-
-
+<script src="/js/scripts.js"></script>
 @endsection

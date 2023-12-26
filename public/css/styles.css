@@ -51,6 +51,7 @@ header {
     justify-content: space-between;
     background-color: #FFF;
     padding: 5px 0;
+    
 }
 
 #navbar a {
@@ -59,7 +60,7 @@ header {
 }
 
 #navbar a:hover {
-    color: #002c74
+    color: #002c74;
 }
 
 /* ICON */
@@ -87,17 +88,24 @@ header {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.10);
     transition: transform 0.2s;
     padding: 10px 20px;
 }
 
+#page-profile,
+#page-appointment,
+#page-news  {
+    transition: transform 0.3s ease-in-out; 
+}
 
 #page-profile:hover,
 #page-appointment:hover,
 #page-news:hover  {
     transform: scale(1.2);
 }
+
+
+
 
 /* MAPA */
 .mapBox {
@@ -118,7 +126,7 @@ header {
 /* SEARCH CONTAINER */
 
 #search-container {
-    background-image: url("../img/banner.png");
+    background-image: url("../img/IMG_sede\ original.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -243,6 +251,17 @@ header {
     margin: 20px 0;
 }
 /* Carrosel de noticias */
+.statement {
+    font-size: 8px; 
+    text-align: center;
+    padding: 10px; 
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+    color: #002c74; 
+}
+
+
 .slider {
     margin: 0 auto;
     width: 800px;
@@ -346,14 +365,8 @@ footer {
     text-align: center;
     background-color: #003997;
     color: #fff;
-    padding: 30px;
+    padding: 10px;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-
-footer p {
-    margin-bottom: 0;
-}
-
-
