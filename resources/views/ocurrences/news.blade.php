@@ -17,7 +17,7 @@
     <input type="radio" name="radio-btn" id="radio2">
     <input type="radio" name="radio-btn" id="radio3">
     <input type="radio" name="radio-btn" id="radio4">
-
+    
     <!--Fim Radio Buttons-->
 
     <!-- Imagens-->
@@ -51,6 +51,7 @@
     <label for="radio3" class='manual-btn'> </label>
     <label for="radio4" class='manual-btn'> </label>
 
+    
     </div>
 
 </div>
