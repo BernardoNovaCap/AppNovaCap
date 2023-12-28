@@ -34,14 +34,18 @@
                         </li>
                         <li class="nav-item">
                             <a href="/ocurrences/create" class="nav-link">Criar Ocorrência</a>
-                        
+                        @auth
                         <li class="nav-item">
                         <form action="/logout" method="POST">
-                        @csrf
-                        <a href="/logout" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">Sair
+                            @csrf
+                            <a href="/logout" 
+                            class="nav-link" 
+                            onclick="event.preventDefault(); 
+                            this.closest('form').submit();">Sair
                             </a>
                          </form>
                         </li>
+                        @endauth
                         @guest
                         <li class="nav-item">
                             <a href="/login" class="nav-link">Entrar</a>
