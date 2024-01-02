@@ -16,7 +16,7 @@
     <div id="cards-container" class="row">
 
         <div class="card col-md-3">
-            <img src="/img/buraco.png" alt="Buraco">
+            <img src="/img/IMGNOVACAP/IMG_0908.JPG" alt="Buraco">
             <div class="card-body">
                 <h5 class="card-type">Buraco</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="card col-md-3">
-            <img src="/img/meio-fio.png" alt="Meio-fio danificado">
+            <img src="/img/IMGNOVACAP/IMG_1230.JPG" alt="Meio-fio danificado">
             <div class="card-body">
                 <h5 class="card-type">Meio-fio danificado</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="card col-md-3">
-            <img src="/img/poda-de-arvore.png" alt="Poda de árvore">
+            <img src="/img/IMGNOVACAP/IMG_0755.JPG" alt="Poda de árvore">
             <div class="card-body">
                 <h5 class="card-type">Poda de árvore</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
@@ -43,7 +43,7 @@
         </div>
 
         <div class="card col-md-3">
-            <img src="/img/boca-de-lobo.png" alt="Manutenção em boca de lobo">
+            <img src="/img/IMGNOVACAP/_MG_0246.JPG" alt="Manutenção em boca de lobo">
             <div class="card-body">
                 <h5 class="card-type">Manutenção em boca de lobo</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
@@ -52,7 +52,7 @@
         </div>
 
         <div class="card col-md-3">
-            <img src="/img/calçada-danificada.png" alt="Calçada danificada">
+            <img src="/img/IMGNOVACAP/IMG_6033.JPG" alt="Calçada danificada">
             <div class="card-body">
                 <h5 class="card-type">Calçada danificada</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
