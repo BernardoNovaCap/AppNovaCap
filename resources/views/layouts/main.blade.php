@@ -43,7 +43,7 @@
                             onclick="event.preventDefault(); 
                             this.closest('form').submit();">Sair
                             </a>
-                         </form>
+                        </form>
                         </li>
                         @endauth
                         @guest
@@ -69,7 +69,7 @@
             </div>
         </div>
     </main>
-   
+    
     <footer>
         <p>Companhia Urbanizadora da Nova Capital do Brasil - NOVACAP &copy; 2023</p>
     </footer>
