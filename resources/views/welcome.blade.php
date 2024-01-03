@@ -20,7 +20,7 @@
             <div class="card-body">
                 <h5 class="card-type">Buraco</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/IMGNOVACAP/IMG_0908.JPG', 'Buraco', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
             </div>
         </div>
 
@@ -29,7 +29,7 @@
             <div class="card-body">
                 <h5 class="card-type">Meio-fio danificado</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/meio-fio-danificado.png', 'Meio-fio danificado', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
             </div>
         </div>
 
@@ -38,16 +38,16 @@
             <div class="card-body">
                 <h5 class="card-type">Poda de árvore</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/poda-de-arvore.png', 'Poda de árvore', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
             </div>
         </div>
 
         <div class="card col-md-3">
             <img src="/img/boca-de-lobo.png" alt="Manutenção em boca de lobo">
             <div class="card-body">
-                <h5 class="card-type">Manutenção em boca de lobo</h5>
+                <h5 class="card-type">Limpeza em boca de lobo</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/boca-de-lobo.png', 'Manutenção em boca de lobo', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
             </div>
         </div>
 
@@ -56,8 +56,19 @@
             <div class="card-body">
                 <h5 class="card-type">Calçada danificada</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/calçada-danificada.png', 'Calçada danificada', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
             </div>
+        </div>
+
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="">
+              <div id="modal-text">
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+              </div>
+          </div>
         </div>
     </div>
 </div>

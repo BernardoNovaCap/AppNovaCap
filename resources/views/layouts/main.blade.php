@@ -24,9 +24,9 @@
                         <img src="/img/logonovacap.png" alt="NovaCap">
                     </a>
                     <div class="button-container">
-                    <button id="page-profile" title="Chamados"><a href="/ocurrences/called"><ion-icon name="call-outline"></ion-icon></a></button>
-                    <button id="page-appointment" title="Agendamento"><a href="/ocurrences/scheduling"><ion-icon name="calendar-outline"></ion-icon></a></button>
-                    <button id="page-news" title="Notícias"> <a href="/ocurrences/news" ><ion-icon name="newspaper-outline"></ion-icon></a></button>
+                    <a href="/ocurrences/called"><button id="page-profile" title="Chamados"><ion-icon name="call-outline"></ion-icon></button></a>
+                    <a href="/ocurrences/scheduling"><button id="page-appointment" title="Agendamento"><ion-icon name="calendar-outline"></ion-icon></button></a>
+                    <a href="/ocurrences/news"><button id="page-news" title="Notícias"><ion-icon name="newspaper-outline"></ion-icon></button></a>
                     </div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
