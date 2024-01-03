@@ -19,3 +19,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setInterval(nextImage, 3000);
 });
+
+function openModal(imageSrc, title, description) {
+    var modal = document.getElementById('modal');
+    var modalContent = document.querySelector('.modal-content');
+
+    document.getElementById('modal-image').src = imageSrc;
+    document.getElementById('modal-title').innerText = title;
+    document.getElementById('modal-description').innerText = description;
+
+    modal.classList.add('show');
+    modalContent.classList.add('show');
+}
+
+function closeModal() {
+    var modal = document.getElementById('modal');
+    var modalContent = document.querySelector('.modal-content');
+
+    modal.classList.remove('show');
+    modalContent.classList.remove('show');
+}

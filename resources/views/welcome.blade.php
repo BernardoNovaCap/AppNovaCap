@@ -20,7 +20,18 @@
             <div class="card-body">
                 <h5 class="card-type">Buraco</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/IMGNOVACAP/IMG_0908.JPG', 'Buraco', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
+            </div>
+        </div>
+        
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modal-image" src="" alt="">
+                    <div id="modal-text">
+                        <h2 id="modal-title"></h2>
+                        <p id="modal-description"></p>
+                    </div>
             </div>
         </div>
 
@@ -29,7 +40,7 @@
             <div class="card-body">
                 <h5 class="card-type">Meio-fio danificado</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="#" class="btn btn-primary" onclick="openModal('/img/IMGNOVACAP/IMG_0908.JPG', 'Buraco', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
             </div>
         </div>
 
