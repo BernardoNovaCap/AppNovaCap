@@ -73,6 +73,11 @@
     </div>
 </div>
 
+
+<div id="ocurrences-container" class="col-md-12">
+    <h2>Comunicados e Notícias:</h2>
+    <p class="subtitle">Veja os comunicados e notícias:</p>
+</div>
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
