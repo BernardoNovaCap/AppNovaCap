@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Ocurrence;
+use App\Models\User;
 
 class OcurrencesController extends Controller
 
@@ -53,6 +54,9 @@ class OcurrencesController extends Controller
 
         }
 
+        $user = auth()->user();
+        $ocurrence->user_id = $user->id;
+
         $ocurrence->save();
 
         return redirect('/ocurrences/myocurrences')->with('msg', 'Ocorrência criada com sucesso!');
@@ -61,8 +65,18 @@ class OcurrencesController extends Controller
 
     public function show($id) {
         $ocurrence = Ocurrence::findOrFail($id);
+
+        $ocurrenceOwner = User::where('id', $ocurrence->user_id)->first()->toArray();
     
-        return view('ocurrences.show', ['ocurrence' => $ocurrence]);
+        return view('ocurrences.show', ['ocurrence' => $ocurrence, 'ocurrenceOwner' => $ocurrenceOwner]);
+    }
+
+    public function dashboard() {
+
+        $user = auth()->user();
+        $ocurrences = $user->ocurrences;
+
+        return view('ocurrences.myocurrences', ['ocurrences' => $ocurrences]);
     }
 
     public function scheduling() {

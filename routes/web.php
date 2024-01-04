@@ -24,9 +24,11 @@ Route::get('/ocurrences/called', [OcurrencesController::class , 'called'])->midd
 Route::post('/ocurrences', [OcurrencesController::class, 'store'])->middleware('auth');
 Route::get('/ocurrences/{id}', [OcurrencesController::class, 'show'])->middleware('auth');
     
-Route::get('/contact', function () {
+Route::get('/contact', function () { 
     return view('contact');
 });
+
+Route::get('/dashboard', [OcurrencesController::class, 'dashboard'])->middleware('auth');
 
 Route::middleware([
     'auth:sanctum',

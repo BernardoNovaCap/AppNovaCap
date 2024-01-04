@@ -73,6 +73,11 @@
     </div>
 </div>
 
+<div id="ocurrences-container" class="col-md-12">
+    <h2>Categorias:</h2>
+    <p class="subtitle">Veja as categorias que você pode criar uma ocorrência</p>
+</div>
+
 <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     

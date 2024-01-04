@@ -25,7 +25,7 @@
 
         <div class="form-group">
             <label for="type">Descrição:</label>
-            <textarea name="description" id="description" class="form-control" placeholder="Descreva seu problema"></textarea>
+            <textarea name="description" id="description" class="form-control" placeholder="Descreva seu problema" maxlength="100"></textarea>
         </div>
 
         <div class="form-group">
