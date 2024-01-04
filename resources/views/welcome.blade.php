@@ -73,71 +73,71 @@
     </div>
 </div>
 
-<div id="ocurrences-container" class="col-md-12">
-    <h2>Categorias:</h2>
-    <p class="subtitle">Veja as categorias que você pode criar uma ocorrência</p>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!--  Estilos Personalizado -->
+<link rel="stylesheet" href="/css/styles.css">
+
+<!-- Bootstrap Bundle com Popper.js (JavaScript) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts Personalizados -->
+<script src="/js/seu-script.js"></script>
+
+      <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/buraco.png" class=" d-block w-100" alt="Teste1" loading="lazy">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/calçada-danificada.png" class=" d-block w-100" alt="Teste2" loading="lazy">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/boca-de-lobo.png" class=" d-block w-100" alt="Teste3" loading="lazy">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Comunicados</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/boca-de-lobo.png" class=" d-block w-100" alt="Teste1" loading="lazy">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/meio-fio.png" class="d-block w-100" alt="Teste2" loading="lazy">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/calçada-danificada.png" class="d-block w-100" alt="Teste3" loading="lazy">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previou</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
 </div>
-
-<div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T7pDMCrjZwj7/6n6qjMZl0E2tcSxaWOE0EGg3LOd6IdJweaxEmf+2pDIsWMM0HsB" crossorigin="anonymous">
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
-    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/img/buraco.png" class="d-block w-100" alt="Teste1">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/calçada-danificada.png" class="d-block w-100" alt="Teste2">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/boca-de-lobo.png" class="d-block w-100" alt="Teste3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Comunicados</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-<div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/img/boca-de-lobo.png" class="d-block w-100" alt="Teste1">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/meio-fio.png" class="d-block w-100" alt="Teste2">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/calçada-danificada.png" class="d-block w-100" alt="Teste3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Notícias</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
 
 @endsection

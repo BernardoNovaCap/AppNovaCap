@@ -575,6 +575,40 @@ header {
     margin-bottom: 10px;
 }
 
+/* Carrosel Welcome */
+#carouselExampleIndicators1,
+#carouselExampleIndicators2 {
+    width: 50%; 
+    max-width: 700px; 
+    margin: 0 auto; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 7%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 100px;
+    height: 30px;
+}
+
+.carousel-indicators {
+    margin-bottom: 10px;
+}
+.carousel-inner {
+    width: 100%; 
+}
+
+.carousel-item {
+    height: 400px; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
 
 /* FOOTER */
 
