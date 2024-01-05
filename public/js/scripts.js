@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+
+
 function openModal(imageSrc, title, description) {
     var modal = document.getElementById('modal');
     var modalContent = document.querySelector('.modal-content');

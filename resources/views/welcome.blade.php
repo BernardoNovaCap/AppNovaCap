@@ -73,76 +73,57 @@
     </div>
 </div>
 
-
-<div id="ocurrences-container" class="col-md-12">
-    <h2>Comunicados e Notícias:</h2>
-    <p class="subtitle">Acompanhe os comunicados e notícias:</p>
-</div>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!--  Estilos Personalizado -->
-<link rel="stylesheet" href="/css/styles.css">
-
-<!-- Bootstrap Bundle com Popper.js (JavaScript) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Scripts Personalizados -->
-<script src="/js/seu-script.js"></script>
-
-      <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-
-          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/img/buraco.png" class=" d-block w-100" alt="Teste1" loading="lazy">
-          </div>
-          <div class="carousel-item">
-            <img src="/img/calçada-danificada.png" class=" d-block w-100" alt="Teste2" loading="lazy">
-          </div>
-          <div class="carousel-item">
-            <img src="/img/boca-de-lobo.png" class=" d-block w-100" alt="Teste3" loading="lazy">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Comunicados</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <div id="teste" class="wrapper">
+      <div id="new-container" class="col-md-12">
+          <h2>COMUNICADOS</h2>
       </div>
+  
+      <div class='welcome-slider'>
+          <div class='welcome-slides'>
+              <!-- Radio Buttons-->
+              <input type="radio" name="welcome-radio-btn" id="radio1">
+              <input type="radio" name="welcome-radio-btn" id="radio2">
+              <input type="radio" name="welcome-radio-btn" id="radio3">
+              <input type="radio" name="welcome-radio-btn" id="radio4">
+  
+              <!--Fim Radio Buttons-->
+  
+              <!-- Imagens-->
+              <div class="welcome-slide first">
+                  <img src="/img/teste1.jpeg" alt="imagem1">
+              </div>
+              <div class="welcome-slide">
+                  <img src="/img/teste2.jpeg" alt="imagem2">
+              </div>
+              <div class="welcome-slide">
+                  <img src="/img/meio-fio.png" alt="imagem3">
+              </div>
+              <div class="welcome-slide">
+                  <img src="/img/buraco.png" alt="imagem4">
+              </div>
+              <!--Fim de Imagens-->
+  
+              <!--Navigation auto-->
+              <div class='welcome-navigation-auto'>
+                  <div class="welcome-auto-btn1"></div>
+                  <div class="welcome-auto-btn2"></div>
+                  <div class="welcome-auto-btn3"></div>
+                  <div class="welcome-auto-btn4"></div>
+              </div>
+          </div>
+  
+          <div class='welcome-manual-navigation'>
+              <label for="welcome-radio1-1" class='welcome-manual-btn'> </label>
+              <label for="welcome-radio2-1" class='welcome-manual-btn'> </label>
+              <label for="welcome-radio3-1" class='welcome-manual-btn'> </label>
+              <label for="welcome-radio4" class='welcome-manual-btn'> </label>
+          </div>
+      </div>
+  
+      <div class="latest-communications">
+          <p>Fique por dentro dos últimos Comunicados:</p>
+      </div>
+  </div>
 
-      <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/img/boca-de-lobo.png" class=" d-block w-100" alt="Teste1" loading="lazy">
-          </div>
-          <div class="carousel-item">
-            <img src="/img/meio-fio.png" class="d-block w-100" alt="Teste2" loading="lazy">
-          </div>
-          <div class="carousel-item">
-            <img src="/img/calçada-danificada.png" class="d-block w-100" alt="Teste3" loading="lazy">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previou</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-</div>
-
+<script src="/js/scripts.js"></script>
 @endsection

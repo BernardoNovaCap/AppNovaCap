@@ -439,46 +439,51 @@ header {
     background-color: #FFF;
 }
 
-/* Carrosel de Notícias e Comunicados Welcome */
-.statement {
-    font-size: 8px; 
-    text-align: center;
-    padding: 10px; 
-    position: relative;
-    width: 100%;
-    font-weight: bold;
-    color: #002c74; 
+/* Carrosel Welcome */
+.welcome-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
+#teste {
+    margin-top: 250px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-.slider {
+.welcome-slider {
     margin: 0 auto;
     width: 800px;
-    height: 400px;
+    height:400px;
     overflow: hidden;
+    position: relative;
 }
 
-.slides {
+.welcome-slides {
     width: 400%;
     height: 400px;
     display: flex;
 }
 
-.slides input{
+.welcome-slides input{
     display: none;
 }
 
-.slide{
+.welcome-slide{
     width: 25%;
     position: relative;
     transition: 2s;
 }
 
-.slide img{
+.welcome-slide img{
     width: 800px;
 }
 
-.manual-navigation{
+.welcome-manual-navigation{
     position: absolute;
     width: 800px;
     margin-top: -40px;
@@ -486,7 +491,7 @@ header {
     justify-content: center;   
 }
 
-.manual-btn{
+.welcome-manual-btn{
     border: 2px solid #FFF;
     padding: 5px;
     border-radius: 10px;
@@ -494,28 +499,28 @@ header {
     transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.welcome-manual-btn:not(:last-child){
     margin-right: 40px;
 }
 
-.manual-btn:hover{
+.welcome-manual-btn:hover{
     background-color: #FFF;
 }
 
-#radio1:checked ~ .first{
+#welcome-radio1:checked ~ .first{
     margin-left: 0;
 }
-#radio2:checked ~ .first{
+#welcome-radio2:checked ~ .first{
     margin-left: -25%;
 }
-#radio3:checked ~ .first{
+#welcome-radio3:checked ~ .first{
     margin-left: -50%;
 }
-#radio4:checked ~ .first{
+#welcome-radio4:checked ~ .first{
     margin-left: -75%;
 }
 
-.navigation-auto div{
+.welcome-navigation-auto div{
     border: 2px solid #002c74;
     padding: 5px;
     border-radius: 10px;
@@ -523,7 +528,7 @@ header {
     transition: 1s;
 }
 
-.navigation-auto{
+.welcome-navigation-auto{
     position: absolute;
     width: 800px;
     margin-top: 360px;
@@ -531,84 +536,35 @@ header {
     justify-content: center;
 }
 
-.navigation-auto div:not(:last-child){
+.welcome-navigation-auto div:not(:last-child){
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
+#welcome-radio1:checked ~ .navigation-auto .auto-btn1{
     background-color: #FFF;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
+#welcome-radio2:checked ~ .navigation-auto .auto-btn2{
     background-color: #FFF;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
+#welcome-radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: #FFF;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
+#welcome-radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #FFF;
 }
 
-/* Carrosel Welcome */
-#carouselExampleIndicators1,
-#carouselExampleIndicators2 {
-    width: 100%; /* Use 100% da largura */
-    max-width: 800px; /* Defina uma largura máxima */
-    margin: 0 auto; /* Centralize horizontalmente usando margin */
+
+#new-container {
+    text-align: center;
+    font-weight: 900;
+}
+.latest-communications {
+    font-weight: 900;
+    margin-top: 5px; 
 }
 
-.carousel-inner img {
-    width: 100%;
-}
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 7%; /* Largura dos controles de navegação */
-}
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 30px;
-    height: 30px;
-}
-
-.carousel-indicators {
-    margin-bottom: 10px;
-}
-
-/* Carrosel Welcome */
-#carouselExampleIndicators1,
-#carouselExampleIndicators2 {
-    width: 50%; 
-    max-width: 700px; 
-    margin: 0 auto; 
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 7%;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 100px;
-    height: 30px;
-}
-
-.carousel-indicators {
-    margin-bottom: 10px;
-}
-.carousel-inner {
-    width: 100%; 
-}
-
-.carousel-item {
-    height: 400px; 
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
 
 /* FOOTER */
 
