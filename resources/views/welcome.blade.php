@@ -61,69 +61,69 @@
         </div>
 
         <div id="modal" class="modal">
-          <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <img id="modal-image" src="" alt="">
-              <div id="modal-text">
-                <h2 id="modal-title"></h2>
-                <p id="modal-description"></p>
-              </div>
-          </div>
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modal-image" src="" alt="">
+                    <div id="modal-text">
+                        <h2 id="modal-title"></h2>
+                        <p id="modal-description"></p>
+                    </div>
+            </div>
         </div>
     </div>
 </div>
+    <div id="teste" class="wrapper">
+        <div id="new-container" class="col-md-12">
+            <h2>COMUNICADOS</h2>
+        </div>
+    
+        <div class='welcome-slider'>
+            <div class='welcome-slides'>
+                <!-- Radio Buttons-->
+                <input type="radio" name="welcome-radio-btn" id="radio1">
+                <input type="radio" name="welcome-radio-btn" id="radio2">
+                <input type="radio" name="welcome-radio-btn" id="radio3">
+                <input type="radio" name="welcome-radio-btn" id="radio4">
+    
+                <!--Fim Radio Buttons-->
+    
+                <!-- Imagens-->
+                <div class="welcome-slide first">
+                    <img src="/img/teste1.jpeg" alt="imagem1">
+                </div>
+                <div class="welcome-slide">
+                    <img src="/img/teste2.jpeg" alt="imagem2">
+                </div>
+                <div class="welcome-slide">
+                    <img src="/img/meio-fio.png" alt="imagem3">
+                </div>
+                <div class="welcome-slide">
+                    <img src="/img/buraco.png" alt="imagem4">
+                </div>
+                <!--Fim de Imagens-->
+    
+                <!--Navigation auto-->
+                <div class='welcome-navigation-auto'>
+                    <div class="welcome-auto-btn1"></div>
+                    <div class="welcome-auto-btn2"></div>
+                    <div class="welcome-auto-btn3"></div>
+                    <div class="welcome-auto-btn4"></div>
+                </div>
+            </div>
+    
+            <div class='welcome-manual-navigation'>
+                <label for="welcome-radio1-1" class='welcome-manual-btn'> </label>
+                <label for="welcome-radio2-1" class='welcome-manual-btn'> </label>
+                <label for="welcome-radio3-1" class='welcome-manual-btn'> </label>
+                <label for="welcome-radio4" class='welcome-manual-btn'> </label>
+            </div>
+        </div>
+    
+        <div class="latest-communications">
+            <p>Fique por dentro dos últimos Comunicados:</p>
+        </div>
+    </div>
 
-  <div id="teste" class="wrapper">
-      <div id="new-container" class="col-md-12">
-          <h2>COMUNICADOS</h2>
-      </div>
-  
-      <div class='welcome-slider'>
-          <div class='welcome-slides'>
-              <!-- Radio Buttons-->
-              <input type="radio" name="welcome-radio-btn" id="radio1">
-              <input type="radio" name="welcome-radio-btn" id="radio2">
-              <input type="radio" name="welcome-radio-btn" id="radio3">
-              <input type="radio" name="welcome-radio-btn" id="radio4">
-  
-              <!--Fim Radio Buttons-->
-  
-              <!-- Imagens-->
-              <div class="welcome-slide first">
-                  <img src="/img/teste1.jpeg" alt="imagem1">
-              </div>
-              <div class="welcome-slide">
-                  <img src="/img/teste2.jpeg" alt="imagem2">
-              </div>
-              <div class="welcome-slide">
-                  <img src="/img/meio-fio.png" alt="imagem3">
-              </div>
-              <div class="welcome-slide">
-                  <img src="/img/buraco.png" alt="imagem4">
-              </div>
-              <!--Fim de Imagens-->
-  
-              <!--Navigation auto-->
-              <div class='welcome-navigation-auto'>
-                  <div class="welcome-auto-btn1"></div>
-                  <div class="welcome-auto-btn2"></div>
-                  <div class="welcome-auto-btn3"></div>
-                  <div class="welcome-auto-btn4"></div>
-              </div>
-          </div>
-  
-          <div class='welcome-manual-navigation'>
-              <label for="welcome-radio1-1" class='welcome-manual-btn'> </label>
-              <label for="welcome-radio2-1" class='welcome-manual-btn'> </label>
-              <label for="welcome-radio3-1" class='welcome-manual-btn'> </label>
-              <label for="welcome-radio4" class='welcome-manual-btn'> </label>
-          </div>
-      </div>
-  
-      <div class="latest-communications">
-          <p>Fique por dentro dos últimos Comunicados:</p>
-      </div>
-  </div>
 
 <script src="/js/scripts.js"></script>
 @endsection
