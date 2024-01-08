@@ -74,7 +74,7 @@
 </div>
     <div id="teste" class="wrapper">
         <div id="new-container" class="col-md-12">
-            <h2>COMUNICADOS</h2>
+            <h2>Comunicados:</h2>
         </div>
     
         <div class='welcome-slider'>
