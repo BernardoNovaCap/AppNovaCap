@@ -475,6 +475,7 @@ header {
 }
 
 .welcome-slide{
+    cursor: pointer;
     width: 25%;
     position: relative;
     transition: 2s;

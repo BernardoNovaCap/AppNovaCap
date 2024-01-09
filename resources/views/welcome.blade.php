@@ -92,16 +92,16 @@
                 <!--Fim Radio Buttons-->
     
                 <!-- Imagens-->
-                <div class="welcome-slide first">
+                <div class="welcome-slide first" onclick="redirectNews('/ocurrences/news')">
                     <img src="/img/teste1.jpeg" alt="imagem1">
                 </div>
-                <div class="welcome-slide">
+                <div class="welcome-slide" onclick="redirectNews('/ocurrences/news')">
                     <img src="/img/teste2.jpeg" alt="imagem2">
                 </div>
-                <div class="welcome-slide">
+                <div class="welcome-slide" onclick="redirectNews('/ocurrences/news')">
                     <img src="/img/meio-fio.png" alt="imagem3">
                 </div>
-                <div class="welcome-slide">
+                <div class="welcome-slide" onclick="redirectNews('/ocurrences/news')" >
                     <img src="/img/buraco.png" alt="imagem4">
                 </div>
                 <!--Fim de Imagens-->
@@ -119,9 +119,15 @@
                 <label for="welcome-radio1-1" class='welcome-manual-btn'> </label>
                 <label for="welcome-radio2-1" class='welcome-manual-btn'> </label>
                 <label for="welcome-radio3-1" class='welcome-manual-btn'> </label>
-                <label for="welcome-radio4-1" class='welcome-manual-btn'> </label>
+                <label for="welcome-radio4-1" class='welcome-manual-btn'> </label>      
             </div>
         </div>
+        <script>
+        // Função para redirecionar para a página de notícias
+        function redirectNews(newsUrl) {
+        window.location.href = newsUrl;
+        }
+        </script>
     
         <div class="latest-communications">
             <p>Fique por dentro dos últimos Comunicados:</p>
