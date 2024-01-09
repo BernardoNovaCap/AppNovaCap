@@ -25,7 +25,7 @@ class OcurrencesController extends Controller
     $ocurrences = Ocurrence::all();
     return view('ocurrences.myocurrences', ['ocurrences' => $ocurrences]);
 }
-    
+
 
     public function store(Request $request) {
 
@@ -36,8 +36,8 @@ class OcurrencesController extends Controller
         $ocurrence->adress = $request->adress;
         $ocurrence->risk = $request->risk;
 
-        
-    
+
+
         // IMAGE UPLOAD
 
         if($request->hasFile('image') && $request->file('image')->isValid()) {
@@ -67,7 +67,7 @@ class OcurrencesController extends Controller
         $ocurrence = Ocurrence::findOrFail($id);
 
         $ocurrenceOwner = User::where('id', $ocurrence->user_id)->first()->toArray();
-    
+
         return view('ocurrences.show', ['ocurrence' => $ocurrence, 'ocurrenceOwner' => $ocurrenceOwner]);
     }
 
