@@ -20,12 +20,17 @@ class OcurrencesController extends Controller
     public function create() {
         return view('ocurrences.create');
     }
-    public function myocurrences()
-{
-    $ocurrences = Ocurrence::all();
-    return view('ocurrences.myocurrences', ['ocurrences' => $ocurrences]);
-}
 
+    public function myocurrences()
+    {
+        // Obtém o usuário autenticado
+        $user = auth()->user();
+
+        // Obtém as ocorrências apenas para o usuário autenticado
+        $ocurrences = Ocurrence::where('user_id', $user->id)->get();
+
+        return view('ocurrences.myocurrences', ['ocurrences' => $ocurrences]);
+    }
 
     public function store(Request $request) {
 
@@ -67,6 +72,10 @@ class OcurrencesController extends Controller
         $ocurrence = Ocurrence::findOrFail($id);
 
         $ocurrenceOwner = User::where('id', $ocurrence->user_id)->first()->toArray();
+
+        if (auth()->user()->id !== $ocurrence->user_id) {
+            abort(403, 'Acesso não autorizado');
+        }
 
         return view('ocurrences.show', ['ocurrence' => $ocurrence, 'ocurrenceOwner' => $ocurrenceOwner]);
     }
