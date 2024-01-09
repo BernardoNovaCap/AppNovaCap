@@ -20,16 +20,18 @@
             <div class="card-body">
                 <h5 class="card-type">Buraco</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary" onclick="openModal('/img/IMGNOVACAP/IMG_0908.JPG', 'Buraco', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
-            </div>
-        </div>
+                <a href="/ocurrences/create?type=Buraco" class="btn btn-primary">Criar ocorrência</a>
+
+    </div>
+</div>
 
         <div class="card col-md-3">
             <img src="/img/meio-fio-danificado.png" alt="Meio-fio danificado">
             <div class="card-body">
                 <h5 class="card-type">Meio-fio danificado</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary" onclick="openModal('/img/meio-fio-danificado.png', 'Meio-fio danificado', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
+                <a href="/ocurrences/create?type=Meio-fio%20danificado" class="btn btn-primary">Criar ocorrência</a>
+
             </div>
         </div>
 
@@ -38,25 +40,27 @@
             <div class="card-body">
                 <h5 class="card-type">Poda de árvore</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary" onclick="openModal('/img/poda-de-arvore.png', 'Poda de árvore', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
+                <a href="/ocurrences/create?type=Poda%20de%20árvore" class="btn btn-primary">Criar ocorrência</a>
+
             </div>
         </div>
 
         <div class="card col-md-3">
             <img src="/img/boca-de-lobo.png" alt="Manutenção em boca de lobo">
             <div class="card-body">
-                <h5 class="card-type">Limpeza em boca de lobo</h5>
+                 <h5 class="card-type">Manutenção em boca de lobo</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary" onclick="openModal('/img/boca-de-lobo.png', 'Manutenção em boca de lobo', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
+                <a href="/ocurrences/create?type=Manutenção%20em%20boca%20de%20lobo" class="btn btn-primary">Criar ocorrência</a>
             </div>
         </div>
+
 
         <div class="card col-md-3">
             <img src="/img/calçada-danificada.png" alt="Calçada danificada">
             <div class="card-body">
                 <h5 class="card-type">Calçada danificada</h5>
                 <p class="card-infos">Lorem ipsum, dolor sit amet consectt adipisicing elit. Eum harum veritatis, quod quo hic pariatur?</p>
-                <a href="#" class="btn btn-primary" onclick="openModal('/img/calçada-danificada.png', 'Calçada danificada', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum harum veritatis, quod quo hic pariatur?')">Saber mais</a>
+                <a href="/ocurrences/create?type=Calçada%20danificada" class="btn btn-primary">Criar ocorrência</a>
             </div>
         </div>
 
@@ -115,7 +119,7 @@
                 <label for="welcome-radio1-1" class='welcome-manual-btn'> </label>
                 <label for="welcome-radio2-1" class='welcome-manual-btn'> </label>
                 <label for="welcome-radio3-1" class='welcome-manual-btn'> </label>
-                <label for="welcome-radio4" class='welcome-manual-btn'> </label>
+                <label for="welcome-radio4-1" class='welcome-manual-btn'> </label>
             </div>
         </div>
     
@@ -123,7 +127,8 @@
             <p>Fique por dentro dos últimos Comunicados:</p>
         </div>
     </div>
-
-
+    
 <script src="/js/scripts.js"></script>
+
+
 @endsection
